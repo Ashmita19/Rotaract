@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appolysus</title>
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/nanoscroller.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+	<!-- scripts -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/skel.js"></script>
+	<script type="text/javascript" src="js/skel-layout.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+	<!--<script type="text/javascript" src="js/horwheel.js"></script> -->
+	<script type="text/javascrispt" src="js/jquery.nanoscroller.min.js"></script>
+	<script type='text/javascript' src='js/jquery.mousewheel.js'></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		skel.layout({
+		    reset: "normalize",
+		    grid: true,
+		    containers: true
+		});
+	</script>
+	<script type="text/javascript">
+		$(function() {
+
+   		$(".viewer").mousewheel(function(event, delta) {
+
+      this.scrollLeft -= (delta * 30);
+    
+      event.preventDefault();
+
+   });
+
+});
+	</script>
+</head>
+<body class="row">
+	<!-- thumb -->
+	
+	<!-- viewer -->
+	<section class="viewer 10u">
+		<a href="#" class="complogo"><img src="./img/rotaract-logo" style="width:180px; height: 180px"></a>
+		<a href="#" class="contactbt"><span class="fa fa-envelope"></span> Contacts</a>
+		<!--<a href="#" class="blogbt"><span class="fa fa-pencil"></span> Blog</a>-->
+		<div class="social">
+			<a href="https://www.facebook.com/appolysus?fref=ts" target="_blank"><span class="fa fa-facebook"></span></a>
+			<a href="https://twitter.com/APPOLYSUS" target="_blank"><span class="fa fa-twitter"></span></a>
+			<a href="http://instagram.com/appolysus_/" target="_blank"><span class="fa fa-instagram"></span></a>
+			<a href="https://www.linkedin.com/company/appolysus/edit?report.success=7maJyGVPMBtGMonD_TwLwYqUsIVLm-4AjCrO5Bal0JHWWqtdJOGK5vECE4NQKS-ds23Q9DR0TC4OnmAd226OIYCUjfHvvhC-HyLWl1aYaaE47Yn&_mSplash=1"><span class="fa fa-linkedin" target="_blank"></span></a>
+			<a href="https://www.pinterest.com/appolysus" target="_blank"><span class="fa fa-pinterest"></span></a>
+			<a href="http://appolysus.tumblr.com/" target="_blank"><span class="fa fa-tumblr"></span></a>
+		</div>
+		<div class=" cardslider trans3">
+			
+			<div class="cards" id="about">
+				<div class="img trans3"></div>
+				<div class="c_overlay">
+					<h2 class="trans1">Rotaract</h2>
+					<hr class="trans2">
+					<p class="trans3">Do you want to be part of a global community of young adults taking action for positive change? Are you looking for the chance to share your ideas and look at the world’s challenges in a new way? Join a Rotaract club and find all this and more, including:<br>
+Hands-on service projects<br>
+Fun networking and social activities<br>
+Professional development opportunities<br>
+An international network of young leaders
+					<br>
+					<br>
+					<script type="text/javascript">
+						function next0()
+						{
+							$('.viewer').animate({scrollLeft:0},1800,'easeInQuad');
+						}
+
+						function next1()
+						{
+							$('.viewer').animate({scrollLeft:1400},1800,'easeInQuad');
+						}
+
+						function next2()
+						{
+							$('.viewer').animate({scrollLeft:2800},1800,'easeInQuad');
+						}
+						function next3()
+						{
+							$('.viewer').animate({scrollLeft:4200},1800,'easeInQuad');
+						}
+
+						function next4()
+						{
+							$('.viewer').animate({scrollLeft:5600},1800,'easeInQuad');
+						}
+						function next5()
+						{
+							$('.viewer').animate({scrollLeft:7000},1800,'easeInQuad');
+						}
+
+						/*function next6()
+						{
+							$('.viewer').animate({scrollLeft:6000},1800,'easeInQuad');
+						}*/
+					</script>
+					<a href="#" class="morebt trans3" onclick="next1()"><span class="fa fa-chevron-right"></span> </a>
+					<!--<a href="about.html" class="detailsbt trans3"><span class="fa fa-bars"></span> Details</a> -->
+
+					</p>
+				</div>
+			</div>
+
+
+			<div class="cards" id="team">
+				<div class="img trans3"></div>
+				<div class="c_overlay covercont">
+					<h2 class="trans1">What is Rotaract?</h2>
+					<hr class="trans2">
+					<p class="trans3">
+					Rotaract is a club for adults ages 18-30 that meets twice a month to exchange ideas, plan activities and projects, and socialize. While Rotary clubs serve as sponsors, Rotaract clubs decide how to organize and run their club and what projects and activities to carry out.
+					<br><br>
+					<!--<div class="trans5">-->
+						<a href="#" class="morebt trans3" onclick="next0()"><span class="fa fa-chevron-left"></span> </a>
+						<a href="#" class="morebt trans3" onclick="next2()"><span class="fa fa-chevron-right"></span> </a>
+						<!--<a href="team.html" class="detailsbt trans3"><span class="fa fa-bars"></span> Details</a>-->
+					<!--</div>-->
+					
+					</p>
+					<br>
+					
+						
+					
+				</div>
+			</div>
+
+
+			<div class="cards" id="aweb">
+				<div class="img trans3"></div>
+				<div class="c_overlay covercont">
+					<h2 class="trans1">How do I join Rotaract Club?</h2>
+					<hr class="trans2">
+					<p class="trans3">You can check with your university, look online, or contact a local Rotary club to find out if there’s a club in your area. Contact the Rotaract club to find out about its next meeting, service project, or social event.<br>
+					If you’re interested in learning more about Rotaract, watch "Journey to Pisco" to see how Rotaract clubs worldwide are using their energy, experience, and education to address issues that are important to them.
+					<br><br>
+					<div class="trans5">
+						<a href="#" class="morebt trans3" onclick="next1()"><span class="fa fa-chevron-left"></span> </a>
+						<a href="#" class="morebt trans3" onclick="next3()"><span class="fa fa-chevron-right"></span> </a>
+						<!--<a href="" class="detailsbt trans3"><span class="fa fa-bars"></span> Details</a>-->
+					</div>
+					</p>
+					
+				</div>
+			</div>
+
+
+			<div class="cards" id="apps">
+				<div class="img trans3"></div>
+				<div class="c_overlay covercont">
+					<h1 class="trans1">No Rotaract Club in your community?</h1>
+					<hr class="trans2">
+					<p class="trans3">You can start one! Refer to the Rotaract Handbook for everything you need to organize and manage your new club. Here’s what you’ll need to get started:<br>
+A sponsor Rotary club to provide support and partnership<br>
+An adviser from your sponsor club<br>
+A faculty adviser (if it’s a university-based club) to serve as a liaison between your sponsor Rotary club and the university administration
+Members!<br>
+Strong club leaders to help organize your club, grow your membership, and carry out successful projects.
+					<br><br>
+					<!--<div class="trans5">-->
+						<a href="#" class="morebt trans3" onclick="next2()"><span class="fa fa-chevron-left"></span> </a>
+						<a href="#" class="morebt trans3" onclick="next4()"><span class="fa fa-chevron-right"></span> </a>
+						<!--<a href="" class="detailsbt trans3"><span class="fa fa-bars"></span> Details</a>-->
+					<!--</div>-->
+					</p>
+					<!--<ul class="weblist trans4">
+						<li>
+							<div>
+								<img src="">
+								<div class="wbimgover trans2"><h4>Title</h4><span class="fa fa-plus"></span></div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="">
+								<div class="wbimgover trans2"><h4>Title</h4><span class="fa fa-plus"></span></div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="">
+								<div class="wbimgover trans2"><h4>Title</h4><span class="fa fa-plus"></span></div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="">
+								<div class="wbimgover trans2"><h4>Title</h4><span class="fa fa-plus"></span></div>
+							</div>
+						</li>
+
+					</ul>-->
+					
+
+					
+				</div>
+			</div>
+
+
+			<div class="cards" id="services">
+				<div class="img trans3"></div>
+				<div class="c_overlay covercont">
+					<h2 class="trans1">Rotaract Events</h2>
+					<hr class="trans2">
+					<p class="trans3">Celebrate your club’s global impact by getting involved in:<br>
+						World Rotaract Week<br>
+						Rotaract multidistrict events<br>
+						Rotaract Preconvention Meeting<br>
+						Interota<br>
+						You can learn more about these events in the Rotaract Handbook.<br>
+						Follow Rotaract on Facebook, Twitter, Slideshare, and Storify for updates on these events and to find inspiration and ideas for getting involved.<br><br>
+						<!--<div class="trans5">-->
+						<a href="#" class="morebt trans3" onclick="next3()"><span class="fa fa-chevron-left"></span> </a>
+						<a href="#" class="morebt trans3" onclick="next5()"><span class="fa fa-chevron-right"></span> </a>
+						<!--<a href="" class="detailsbt trans3"><span class="fa fa-bars"></span> Details</a>
+					<!--</div>-->
+					</p>
+
+					<!--<ul class="servList trans4">
+						<li><span class="fa fa-2x fa-eyedropper"></span> <h3>Web Design</h3> </li>
+						<li><span class="fa fa-2x fa-code"></span> <h3>Front-end Web Development</h3> </li>
+						<li><span class="fa fa-2x fa-database"></span> <h3>Back-end Web Development</h3> </li>
+						<li><span class="fa fa-2x fa-gears"></span> <h3>App development</h3> </li>
+					</ul>-->
+
+					
+
+					
+				</div>
+			</div>
+
+
+			<div class="cards" id="about">
+				<div class="img trans3"></div>
+				<div class="c_overlay">
+					<h2 class="trans1">Resources & Reference</h2>
+					<hr class="trans2">
+					<p class="trans3"><a href="#">Rotaract Handbook &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">Rotaract promotional card (PDF)&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					<a href="#">Rotaract Club Certification Form&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">Standard Rotaract Club Constitution and Bylaws&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					<a href="#">Rotaract Statement of Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </a><a href="#">Guide for District Rotaract Representatives&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">
+					Rotaract Identification card&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#"> Rotaract Promotional Kit</a>
+					<a href="#">New Generations newsletter</a><br><br>
+					The Rotaract Club of Calcutta Metro was started in July, 2015 with over a score members Presided by Kaushik Saha and Secretary, Nilanjana Das. With a motto ‘Touching a million lives and being the reason of a million smiles.’ It has set sails to execute few of the most ambitious projects that have ever been taken upon.
+
+
+					<br>
+					<br>
+					<a href="#" class="morebt trans3" onclick="next4()"><span class="fa fa-chevron-left"></span> </a>
+					<!--<a href="#" class="morebt trans3" onclick="next4()"><span class="fa fa-chevron-right"></span> </a>-->
+					<!--<a href="" class="detailsbt trans3"><span class="fa fa-bars"></span> Details</a>-->
+
+					</p>
+				</div>
+			</div>
+
+
+			<!--<div class="cards" id="about">
+				<div class="img trans3"></div>
+				<div class="c_overlay">
+					<h2 class="trans1">About us</h2>
+					<hr class="trans2">
+					<p class="trans3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					<br>
+					<br>
+					<a href="#" class="morebt trans3"><span class="fa fa-chevron-right"></span> Next</a>
+					<a href="" class="detailsbt trans3"><span class="fa fa-bars"></span> Details</a>
+
+					</p>
+				</div>
+			</div>
+			
+			
+			-->
+			
+		</div>
+		
+	</section>
+
+</body>
+</html>
